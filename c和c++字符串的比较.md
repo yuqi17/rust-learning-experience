@@ -13,10 +13,10 @@ int main(){
    char * str2 = "abcd"  	 // not recommanded
    
    int a = strlen(str1); 	 // c cstring
-   cout << a   << endl;              // std
-   printf("%d\n", a);                    // iostream
+   cout << a   << endl;      // std
+   printf("%d\n", a);        // iostream
    
-   string s = "abcd";                   // c++ string
+   string s = "abcd";        // c++ string
    cout << s.size()   << endl;
    
    int p =  strlen(str2);
